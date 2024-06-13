@@ -4,13 +4,16 @@
   "description": "Recipe application",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "postinstall": "patch-package"
   },
   "author": "Ramilia Nigmatullina",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0"
   },
   "dependencies": {
     "core-js": "^3.37.1",
