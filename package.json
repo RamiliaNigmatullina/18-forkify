@@ -2,7 +2,6 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
@@ -11,10 +10,11 @@
   "author": "Ramilia Nigmatullina",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.0.0-beta.1",
-    "sass": "^1.26.10",
     "patch-package": "^8.0.0",
-    "postinstall-postinstall": "^2.1.0"
+    "postinstall-postinstall": "^2.1.0",
+    "sass": "^1.26.10"
   },
   "dependencies": {
     "core-js": "^3.6.5",
