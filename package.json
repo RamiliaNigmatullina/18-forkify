@@ -24,8 +24,7 @@
   },
   "targets": {
     "main": {
-      "source": "index.html",
-      "distDir": "./dist"
+      "source": "index.html"
     }
   }
 }
