@@ -10,7 +10,6 @@ import addRecipeView from './views/addRecipeView.js';
 // import icons from '../img/icons.svg'; // Parcel 1
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import recipeView from './views/recipeView.js';
 
 if (module.hot) {
   module.hot.accept();
